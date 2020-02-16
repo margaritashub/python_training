@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>MAGIC CAT'S DEN</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+    <script src="jquery_min.js"></script>
+</head>
+
+<body class="bg-light">
+<div class="container" style="padding-top: 90px;">
+<style>
+    body {background: url(https://sun9-18.userapi.com/c7002/v7002475/80abe/FCTU7bo2wBw.jpg);
+    color: cornflowerblue}
+   .gradient {
+    background: #00b8e4 url(http://htmlbook.ru/example/images/bg-button.png) repeat-x;
+    font-size: 9pt;
+    height: 30px;
+}
+    .stroke {
+    color: #4a637a;
+    text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0,
+                 #cad5e2 3px 3px 0, #cad5e2 4px 4px 0,
+                 #cad5e2 5px 5px 0;
+   }
+    .aqua { background-color: #a9ffe9}
+    .yellow {background-color: khaki}
+ .pink {background-color: darksalmon}
+    .plum {background-color: plum}
+    .green {background-color: lightgreen}
+
+</style>
+    <h1 class='stroke'>Welcome to the MAGIC CAT'S DEN</h1>
+    <p class="stroke">Please <a href="http://suninjuly.github.io/registration2.html">submit</a> some information about you below:</p>
+
+    <form action="registration_result.html" method="get">
+        <div class="first_block">
+            <div class="form-group first_class">
+                <label class="stroke">Name*</label>
+                <input name="username" id="name" type="text" class="form-control first-class aqua" placeholder="Input your name" maxlength="32" required>
+            </div>
+            <div class="form-group second_class">
+                <label class="stroke">Cosmic name*</label>
+                <input type="text" id="cname" name="cosmicname" class="form-control yellow" placeholder="Input your cosmic name" maxlength="32" required>
+            </div>
+
+            <div class="form-group third_class">
+                <label class="stroke">Email*</label>
+                <input id="email" type="text" name="magicmail" class="form-control pink" placeholder="Input your email" maxlength="32" required>
+            </div>
+        </div>
+        <div class="second_block">
+            <div class="form-group first_class">
+                <label class="stroke">Make a wish:</label>
+                <input type="text" id="wish" name='magic' class="form-control plum" placeholder="Wish" maxlength="100">
+            </div>
+            <div class="form-group second_class">
+                <label class="stroke">What is your totem animal:</label>
+                <input type="text" id="animal" name='totemanimal' class="form-control green" placeholder="Totem animal" maxlength="32">
+            </div>
+        </div>
+        <button type="submit" class="gradient">Magic button</button>
+    </form>
+</div>
+</body>
+
+</html>
